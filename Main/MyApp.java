@@ -2,10 +2,11 @@ package Main;
 import java.util.Scanner;
 
 /**
- * calculator
+ * caculator를 실행시키는 메인메소드
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * 
+ * @author (2018315036 양유석,2018315003 최세원, 2018315022 이지연) 
+ * @version (20.06.12)
  */
 public class MyApp
 {
