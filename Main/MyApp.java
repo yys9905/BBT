@@ -22,6 +22,7 @@ public class MyApp
         else
             past = false;
         Calculation.Calculator c = new Calculation.Calculator();
-        c.Calculator(age, past);
+        int price = c.Calculator(age, past);
+        System.out.println("가격은 "+ price + "원 입니다.");
     }
 }
