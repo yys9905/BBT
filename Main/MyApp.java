@@ -13,10 +13,10 @@ public class MyApp
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
         int old = sc.nextInt();
-        boolean past = true;
+        boolean past;
         if( old >= 6 )
             past = true;
-        else if (old <= 6)
+        else
             past = false;
         Calculation.Calculator c = new Calculation.Calculator();
         c.Calculator(age, past);
