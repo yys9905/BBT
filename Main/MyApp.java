@@ -15,6 +15,10 @@ public class MyApp
         int age = sc.nextInt();
         int old = sc.nextInt();
         boolean past = true;
+        if( old >= 6 )
+            past = true;
+        else if (old <= 6)
+            past = false;
         Calculation.Calculator c = new Calculation.Calculator();
         c.Calculator(age, past);
     }
