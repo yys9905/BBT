@@ -2,10 +2,10 @@ package Main;
 
 
 /**
- * 여기에 MyApp 클래스 설명을 작성하십시오.
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * 
+ * @author (2018315036 양유석,2018315003 최세원, 2018315022 이지연) 
+ * @version (20.06.12)
  */
 public class MyApp
 {
